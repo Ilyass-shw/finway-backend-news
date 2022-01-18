@@ -20,9 +20,6 @@ app.set("trust proxy", 1);
 // Enable cors
 app.use(cors());
 
-// Set static folder
-// app.use(express.static("public"));
-
 // Routes
 app.use("/api", require("./routes"));
 
